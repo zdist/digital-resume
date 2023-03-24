@@ -15,7 +15,7 @@
     width: 700px;
     /* For Mobile */
     /* width: 270px; */
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 0 7px;
   }
   
@@ -24,13 +24,15 @@
     margin: -4px 0;
     letter-spacing: 0.15px
   }
-  
+  .info {
+    text-align: center;
+  }
   p {
     margin: 0;
   }
   
   .divider {
-    border-bottom: 1px solid #888989;
+    border-bottom: 1px solid black;
     margin: 2px 0;
     clear: right;
   }
@@ -79,7 +81,7 @@
   }
   
   .daily-value p:not(.no-divider) {
-    border-bottom: 1px solid #888989;
+    border-bottom: 1px solid black;
   }
 
   .note {
