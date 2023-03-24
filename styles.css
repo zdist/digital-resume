@@ -12,7 +12,9 @@
   
   .label {
     border: 2px solid black;
-    width: 270px;
+    width: 700px;
+    /* For Mobile */
+    /* width: 270px; */
     margin: 20px auto;
     padding: 0 7px;
   }
