@@ -55,9 +55,9 @@ p {
     margin: -5px -2px;
     overflow: hidden;
 }
-.calories-info span {
+.calories-info {
     font-size: 1.2em;
-    margin-top: -7px;
+    margin-top: 8px;
 }
 .indent {
     margin-left: 1em;
