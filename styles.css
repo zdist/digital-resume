@@ -95,9 +95,14 @@ p {
     padding: 0 8px;
     text-indent: -8px;
 }
-/* If what ever reason you wanna view this on your phone... */
+/* If what ever reason you wanna view this in a smaller window... */
 @media (max-width: 900px) {
     .resume {
-        max-width: 700px;
+        width: 700px;
+    }
+}
+@media (max-width: 700px) {
+    .resume {
+        width: 500px;
     }
 }
