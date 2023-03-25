@@ -87,7 +87,7 @@
   }
   .bullet {
     margin-top: -7px;
-    margin-bottom: -7px;
+    /* margin-bottom: -7px; */
     line-height: 10px;
   }
   .note {
