@@ -76,6 +76,12 @@
   .six-indent {
     margin-left: 6em;
   }
+  .seven-indent {
+    margin-left: 7em;
+  }
+  .eight-indent {
+    margin-left: 8em;
+  }
   .daily-value p:not(.no-divider) {
     border-bottom: 1px solid white;
   }
