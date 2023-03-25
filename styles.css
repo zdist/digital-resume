@@ -1,99 +1,104 @@
 * {
     box-sizing: border-box;
-  }
-  html {
+}
+html {
     font-size: 16px;
-  }
-  body {
+}
+body {
     font-family: 'Open Sans', sans-serif;
-  }
-  .label {
+}
+.label {
     border: 2px solid black;
     width: 900px;
     /* For Mobile */
     /* width: 270px; */
     margin: 10px auto;
     padding: 0 7px;
-  }
-  header h1 {
+}
+header h1 {
     text-align: center;
     margin: -4px 0;
     letter-spacing: 0.15px
-  }
-  .info {
+}
+.info {
     text-align: center;
     font-size: 14px;
-  }
-  p {
+}
+p {
     margin: 0;
-  }
-  .divider {
+}
+.divider {
     border-bottom: 1px solid black;
     margin: 2px 0;
     clear: right;
-  }
-  .bold {
+}
+.bold {
     font-weight: 600;
-  }
-  .right {
+}
+.right {
     float: right;
-  }
-  .lg {
+}
+.lg {
     height: 10px;
-  }
-  .lg, .md {
+}
+.lg, .md {
     background-color: black;
     border: 0;
-  }
-  .md {
+}
+.md {
     height: 5px;
-  }
-  .sm-text {
+}
+.sm-text {
     font-size: 0.85rem;
-  }
-  .calories-info h1 {
+}
+.calories-info h1 {
     margin: -5px -2px;
     overflow: hidden;
-  }
-  .calories-info span {
+}
+.calories-info span {
     font-size: 1.2em;
     margin-top: -7px;
-  }
-  .indent {
+}
+.indent {
     margin-left: 1em;
-  }
-  .dbl-indent {
+}
+.dbl-indent {
     margin-left: 2em;
-  }
-  .trip-indent {
+}
+.trip-indent {
     margin-left: 3em;
-  }
-  .quad-indent {
+}
+.quad-indent {
     margin-left: 4em;
-  }
-  .five-indent {
+}
+.five-indent {
     margin-left: 5em;
-  }
-  .six-indent {
+}
+.six-indent {
     margin-left: 6em;
-  }
-  .seven-indent {
+}
+.seven-indent {
     margin-left: 7em;
-  }
-  .eight-indent {
+}
+.eight-indent {
     margin-left: 8em;
-  }
-  .daily-value p:not(.no-divider) {
+}
+.daily-value p:not(.no-divider) {
     border-bottom: 1px solid white;
-  }
-  .bullet {
+}
+.bullet {
     margin-top: -7px;
     /* margin-bottom: -7px; */
     line-height: 10px;
-  }
-  .note {
+}
+.anti-bullet {
+    /* margin-top: -7px; */
+    margin-bottom: -7px;
+    /* line-height: 10px; */
+}
+.note {
     font-size: 0.6rem;
     margin: 5px 0;
     padding: 0 8px;
     text-indent: -8px;
-  }
+}
