@@ -64,7 +64,10 @@
   .dbl-indent {
     margin-left: 2em;
   }
-  .proper-indent {
+  .trip-indent {
+    margin-left: 3em;
+  }
+  .quad-indent {
     margin-left: 4em;
   }
   .daily-value p:not(.no-divider) {
