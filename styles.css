@@ -67,6 +67,10 @@
   .daily-value p:not(.no-divider) {
     border-bottom: 1px solid white;
   }
+  .bullet {
+    margin: 0;
+    line-height: 10px;
+  }
   .note {
     font-size: 0.6rem;
     margin: 5px 0;
