@@ -87,10 +87,6 @@ p {
     border-bottom: 1px solid white;
 }
 .bullet {
-    margin-top: -7px;
-    line-height: 10px;
-}
-.anti-bullet {
     margin-top: 0px;
     margin-bottom: 0px;
 }
