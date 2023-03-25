@@ -91,7 +91,7 @@ p {
     line-height: 10px;
 }
 .anti-bullet {
-    margin-top: 0px;
+    margin: 0px;
 }
 .note {
     font-size: 0.6rem;
