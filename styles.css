@@ -7,7 +7,7 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
 }
-.label {
+.resume {
     border: 2px solid black;
     width: 900px;
     /* For Mobile */
@@ -51,11 +51,11 @@ p {
 .sm-text {
     font-size: 0.85rem;
 }
-.calories-info h1 {
+.section-info h1 {
     margin: -5px -2px;
     overflow: hidden;
 }
-.calories-info {
+.section-info {
     font-size: 1.2em;
     margin-top: 8px;
 }
@@ -83,7 +83,7 @@ p {
 .eight-indent {
     margin-left: 8em;
 }
-.daily-value p:not(.no-divider) {
+.main-content p:not(.no-divider) {
     border-bottom: 1px solid white;
 }
 .bullet {
@@ -91,7 +91,7 @@ p {
     margin-bottom: 0px;
     line-height: 20px;
 }
-.note {
+.print {
     font-size: 0.6rem;
     margin: 5px 0;
     padding: 0 8px;
