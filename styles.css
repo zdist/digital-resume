@@ -81,7 +81,7 @@
   }
   
   .daily-value p:not(.no-divider) {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
   }
 
   .note {
