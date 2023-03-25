@@ -70,6 +70,12 @@
   .quad-indent {
     margin-left: 4em;
   }
+  .five-indent {
+    margin-left: 5em;
+  }
+  .six-indent {
+    margin-left: 6em;
+  }
   .daily-value p:not(.no-divider) {
     border-bottom: 1px solid white;
   }
