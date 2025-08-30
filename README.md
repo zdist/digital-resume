@@ -1,5 +1,5 @@
-# Resumé
+# Digital Resumé
 
-Keeping the resumé simple. HTML & CSS only used here to make an e-resume.
+Keeping the resumé simple. This e-resume uses only HTML & CSS.
 
-###### Not my current resume
+###### Resume is an example and not my current resume.
