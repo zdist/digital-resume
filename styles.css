@@ -99,10 +99,7 @@ p {
 @media print {
     @page { 
         margin: 0; 
-    }
-      body { 
-          margin: 1.6cm; 
-      }
+    } 
 }
 /* If what ever reason you wanna view this in a smaller window... */
 @media (max-width: 900px) {
