@@ -8,7 +8,7 @@
     </head>
     <body>   
     <!-- Inspiration from: https://zdist.github.io/freeCodeCamp/nutritionLabel/nutritionLabel.html -->
-        <div class="resume">
+        <div class="resume" id="printableArea">
             <!-- HEADER -->
             <header>
                 <h1 class="bold">John Doe</h1>
@@ -131,10 +131,23 @@
                     <input value='Print' type='button' onclick='handlePrint()'>
                     <!-- <script type="text/javascript"> -->
                     <script>
+                        // const handlePrint = () => {
+                        //     var contents = document.body.innerHTML;
+                        //     document.body.innerHTML = contents;
+                        //     window.print();
+                        // }
                         const handlePrint = () => {
-                            var contents = document.body.innerHTML;
-                            document.body.innerHTML = contents;
-                            window.print();
+                            // Create a new window
+                            const printWindow = window.open('', '', 'height=600,width=800');
+                            printWindow.document.write('<html><head><title>Print</title>');
+                            printWindow.document.write('</head><body>');
+                            // Get the content you want to print
+                            const content = document.getElementById('printableArea').innerHTML; // Change 'printableArea' to your content's ID
+                            printWindow.document.write(content);
+                            printWindow.document.write('</body></html>');
+                            printWindow.document.close(); // Close the document
+                            printWindow.print(); // Print the content
+                            printWindow.close(); // Close the print window
                         }
                     </script>
                 </span>
