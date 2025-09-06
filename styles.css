@@ -5,7 +5,7 @@ html {
     font-size: 16px;
 }
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 .resume {
     border: 2px solid black;
