@@ -28,8 +28,6 @@ This project is free to use. You are welcome to fork the repository and customiz
 - **CSS Classes:** Ensured that CSS classes are meaningful and consistent.
 - **Code Comments:** Added more comments to explain sections of the code for my and others future reference.
 - **HTML Validation:** Ran the site through W3C Validator to catch potential errors or warnings.
-- **Clarity:** Minor wording adjustments for clarity and flow.
-- **License Section:** Suggested adding a license section to inform users about usage rights.
 
 > [!WARNING]  
 > **Privacy Note:**
