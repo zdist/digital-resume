@@ -60,13 +60,13 @@ p {
 .indent {
     margin-left: 1em;
 }
-.dbl-indent {
+.two-indent {
     margin-left: 2em;
 }
-.tri-indent {
+.three-indent {
     margin-left: 3em;
 }
-.quad-indent {
+.four-indent {
     margin-left: 4em;
 }
 .five-indent {
